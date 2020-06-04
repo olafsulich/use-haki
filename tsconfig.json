@@ -4,6 +4,8 @@
     "module": "esnext",
     "lib": ["dom", "esnext"],
     "moduleResolution": "node",
+    "strict": true,
+    "allowJs": false,
     "jsx": "react",
     "sourceMap": true,
     "declaration": true,
