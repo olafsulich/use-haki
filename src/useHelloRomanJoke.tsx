@@ -9,14 +9,12 @@ type Joke = {
   answer: string;
 };
 
-type Jokes = Joke[];
-
 const useHelloRomanJoke = () => {
   const [randomQuestion, setRandomQuestion] = useState<string>();
   const [randomAnswer, setRandomAnswer] = useState<string>();
   const [error, setError] = useState<string>();
 
-  const generateRandomJoke = (jokes: Jokes) => {
+  const generateRandomJoke = (jokes: Joke[]) => {
     const { question, answer } = jokes[getRandomIndex(jokes)];
     setRandomQuestion(question);
     setRandomAnswer(answer);
