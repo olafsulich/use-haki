@@ -4,7 +4,7 @@
   "description": "Made with create-react-library",
   "author": "olafsulich",
   "license": "Unlicensed",
-  "repository": "olafsulich/use-haki",
+  "repository": "git://github.com/olafsulich/use-haki.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
