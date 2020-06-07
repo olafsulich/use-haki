@@ -21,7 +21,7 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "report-coverage": "codecov"
   },
   "peerDependencies": {
     "react": "^16.0.0"
