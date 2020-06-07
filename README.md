@@ -24,8 +24,7 @@
 <!-- prettier-ignore-start -->
 [![Build Status](https://travis-ci.org/olafsulich/use-haki.svg?branch=master)](https://travis-ci.org/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki)](https://www.npmjs.com/package/use-haki)
-[!licence(https://img.shields.io/npm/l/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
-
+[![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
 
 [![GitHub stars](https://img.shields.io/github/stars/olafsulich/use-haki.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/olafsulich/use-haki.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/network/)
