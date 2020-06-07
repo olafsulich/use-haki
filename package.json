@@ -1,6 +1,6 @@
 {
   "name": "use-haki",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "Made with create-react-library",
   "author": "olafsulich",
   "license": "Unlicensed",
@@ -20,7 +20,8 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {
     "react": "^16.0.0"
@@ -54,7 +55,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "typescript": "^3.7.5"
+    "typescript": "^3.7.5",
+    "semantic-release": "^17.0.8"
   },
   "files": [
     "dist"
