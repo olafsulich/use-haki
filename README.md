@@ -22,14 +22,8 @@
 <hr />
 
 <!-- prettier-ignore-start -->
-[![Build Status][https://img.shields.io/travis/olafsulich/use-haki?style=flat-square](https://img.shields.io/travis/olafsulich/use-haki?style=flat-square)
-<!-- [![Code Coverage][coverage-badge]][coverage]
-[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
-
-[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
-
-[![Watch on GitHub][github-watch-badge]][github-watch] -->
-[![Star on GitHub][github-star-badge]][github-star]
+[![Build Status](https://img.shields.io/travis/olafsulich/use-haki?style=flat-square)]()
+[![Followers](https://img.shields.io/github/followers/olafsulich?label=Follow)]()
 <!-- prettier-ignore-end -->
 
 ## Install
