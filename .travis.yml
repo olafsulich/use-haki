@@ -11,4 +11,4 @@ branches:
 notifications:
   email: false
 script:
-  - codecov -f coverage/*.json
+  - npm run report-coverage
