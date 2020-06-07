@@ -22,7 +22,7 @@
 <hr />
 
 <!-- prettier-ignore-start -->
-[![Build Status](https://travis-ci.org/olafsulich/use-haki.svg?branch=master)](https://travis-ci.org/olafsulich/use-haki)
+[![Build Status](https://travis-ci.org/olafsulich/use-haki.svg)](https://travis-ci.org/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki)](https://www.npmjs.com/package/use-haki)
 [![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
 
