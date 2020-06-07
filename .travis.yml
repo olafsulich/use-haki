@@ -10,5 +10,3 @@ branches:
     - master
 notifications:
   email: false
-script:
-  - npm run report-coverage
