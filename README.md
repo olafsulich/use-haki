@@ -36,12 +36,13 @@
 
 <!-- prettier-ignore-end -->
 
-## Install
-
-```bash
-npm install --save use-haki
-```
-
-## License
-
-MIT © [olafsulich](https://github.com/olafsulich)
+<div align="center">
+  <br />
+  <br />
+  <br />
+  <pre>npm i <a href="https://www.npmjs.com/package/use-haki">use-haki</a></pre>
+  <br />
+  <br />
+  <br />
+  <br />
+</div>
