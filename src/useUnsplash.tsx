@@ -14,9 +14,9 @@ const useUnsplash = ({ user, random = true, width, height }: Unsplash) => {
 
   const fetchImage = async () => {
     try {
-      const apiLink = `https://source.unsplash.com/${
-        user ? `user/${user}` : random ? 'random' : null
-      }/${width || height ? `${width}x${height}` : null}`;
+      const apiLink = `https://source.unsplash.com/${user ? `user/${user}` : random ? 'random' : null}/${
+        width || height ? `${width}x${height}` : null
+      }`;
       setRandomImage(apiLink);
     } catch {
       setError(errorMessage);

@@ -37,8 +37,6 @@ declare module 'activity-detector' {
     init: (firstState: ActivityState) => {};
   };
 
-  function createActivityDetector(
-    options: ActivityDetectorOptions
-  ): ActivityDetectorInstance;
+  function createActivityDetector(options: ActivityDetectorOptions): ActivityDetectorInstance;
   export default createActivityDetector;
 }

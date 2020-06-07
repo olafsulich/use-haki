@@ -2,7 +2,7 @@ import { useEffect, RefObject } from 'react';
 
 enum Events {
   MOUSEDOWN = 'mousedown',
-  TOUCHSTART = 'touchstart'
+  TOUCHSTART = 'touchstart',
 }
 
 type EventsTypes = [typeof Events.MOUSEDOWN, typeof Events.TOUCHSTART][number];
