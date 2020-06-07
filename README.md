@@ -14,7 +14,7 @@
 
 <br />
 
-[**Contributing**](#) | [**Code of Conduct**](#) | [**Docs**](#)
+[**Contributing**](#) | [**Code of Conduct**](./CODE_OF_CONDUCT.md) | [**Docs**](#)
 
 <br />
 </div>
