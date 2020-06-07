@@ -10,3 +10,5 @@ branches:
     - master
 notifications:
   email: false
+after_success:
+  - npm run report-coverage
