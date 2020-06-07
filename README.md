@@ -23,9 +23,10 @@
 
 <!-- prettier-ignore-start -->
 [![Build Status](https://img.shields.io/travis/olafsulich/use-haki?style=flat-square)]()
+[![GitHub stars](https://img.shields.io/github/stars/olafsulich/use-haki.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/olafsulich/use-haki.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/network/)
-[![GitHub watchers](https://img.shields.io/github/watchers/olafsulich/use-haki.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/watchers/)
-[![GitHub followers](https://img.shields.io/github/followers/olafsulich.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/Naereen?tab=followers)
+[![GitHub watchers](https://img.shields.io/github/watchers/olafsulich/use-haki.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/watchers/)
+[![GitHub followers](https://img.shields.io/github/followers/olafsulich.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/olafsulich?tab=followers)
 
 
 
