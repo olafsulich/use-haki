@@ -1,5 +1,4 @@
 import { useReducer, useEffect } from 'react';
-import { unableToReachLocation, geoIsNotSupported } from './helpers/errorMessages';
 
 enum Status {
   Rejected = 'rejected',
@@ -8,13 +7,18 @@ enum Status {
   Idle = 'idle',
 }
 
+enum ErrorMessages {
+  UnableToReachLocation = 'unableToReachLocation',
+  GeoIsNotSupported = 'geoIsNotSupported',
+}
+
 enum Type {
   Error = 'error',
   Success = 'success',
   Started = 'started',
 }
 
-type Error = PositionError | string;
+type Error = PositionError | ErrorMessages;
 
 type Action = { type: Type.Error; error: Error } | { type: Type.Success; position: Position } | { type: Type.Started };
 
@@ -44,7 +48,7 @@ const geoReducer = (state: State, action: Action) => {
         status: Status.Pending,
       };
     default:
-      throw new Error(unableToReachLocation);
+      throw new Error(ErrorMessages.UnableToReachLocation);
   }
 };
 
@@ -60,7 +64,7 @@ const useGeoPosition = () => {
     if (!navigator.geolocation) {
       dispatch({
         type: Type.Error,
-        error: geoIsNotSupported,
+        error: ErrorMessages.GeoIsNotSupported,
       });
       return;
     }
