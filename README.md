@@ -1,24 +1,34 @@
-# use-haki
+<div align="center">
+<h1>use-haki</h1>
 
-Hooks library, unstable for now. Work in progress :)
+🐟
 
-[![NPM](https://img.shields.io/npm/v/use-haki.svg)](https://www.npmjs.com/package/use-haki) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<p>React hooks library</p>
+
+<br />
+
+[**Read The Contributing**](#) |
+
+<br />
+</div>
+
+<hr />
+
+<!-- prettier-ignore-start -->
+[![Build Status][build-badge]][build]
+[![Code Coverage][coverage-badge]][coverage]
+[![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
+
+[![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
+
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+<!-- prettier-ignore-end -->
 
 ## Install
 
 ```bash
 npm install --save use-haki
-```
-
-## Usage
-
-```tsx
-import React from 'react';
-import { usePageWidth } from 'use-haki';
-
-const App = () => {
-  const pageWidth = usePageWidth();
-};
 ```
 
 ## License
