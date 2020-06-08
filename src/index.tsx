@@ -5,3 +5,4 @@ export { default as useClickOutside } from './useClickOutside';
 export { default as useGeoPosition } from './useGeoPosition';
 export { default as useIdle } from './useIdle';
 export { default as useScrollPosition } from './useScrollPosition';
+export { default as useMousePosition } from './useMousePosition';
