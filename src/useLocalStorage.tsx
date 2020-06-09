@@ -56,3 +56,4 @@ const useLocalStorage: LocalStorage = (key, initialValue = '') => {
 };
 
 export default useLocalStorage;
+
