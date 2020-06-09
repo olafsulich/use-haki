@@ -1,13 +1,12 @@
 import { useState, useCallback } from 'react';
 
 type StorageError = null | Error;
-
-type SetValue = {
-  (value: StorageEvent): void;
-};
+type Key = string;
+type SetValue = (value: StorageEvent) => void;
+type DeleteItem = (key: Key) => void;
 
 type LocalStorage = {
-  (key: string, initialValue: string): [string, SetValue, StorageError];
+  (key: Key, initialValue: string): [string, SetValue, DeleteItem, StorageError];
 };
 
 const useLocalStorage: LocalStorage = (key, initialValue = '') => {
@@ -32,6 +31,14 @@ const useLocalStorage: LocalStorage = (key, initialValue = '') => {
     [storedValue],
   );
 
+  const deleteItem = useCallback(() => {
+    try {
+      window.localStorage.removeItem(key);
+    } catch (error) {
+      setError(error);
+    }
+  }, [key]);
+
   const setValue: SetValue = useCallback(
     (value) => {
       try {
@@ -45,7 +52,8 @@ const useLocalStorage: LocalStorage = (key, initialValue = '') => {
     [key, isFnInstance],
   );
 
-  return [storedValue, setValue, error];
+  return [storedValue, setValue, deleteItem, error];
 };
 
 export default useLocalStorage;
+
