@@ -12,3 +12,4 @@ export { default as useHover } from './useHover';
 export { default as useInterval } from './useInterval';
 export { default as useLocalStorage } from './useLocalStorage';
 export { default as useToggle } from './useToggle';
+export { default as useKeyPress } from './useKeyPress';
