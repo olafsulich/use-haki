@@ -46,3 +46,5 @@
   <br />
   <br />
 </div>
+
+- [`useClickOutside`](./docs/useClickOutside.md) &mdash; allows you to detect clicks outside of a specified element.
