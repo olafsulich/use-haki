@@ -48,3 +48,31 @@
 </div>
 
 - [`useClickOutside`](./docs/useClickOutside.md) &mdash; allows you to detect clicks outside of a specified element.
+
+- [`useEventListener`](./docs/useEventListener.md) &mdash; provide a declarative hook for events listeners.
+
+- [`useFetch`](./docs/useFetch.md) &mdash; hook for fetch requests.
+
+- [`useGeoPosition`](./docs/useGeoPosition.md) &mdash; gives device current location.
+
+- [`useHelloRomanJoke`](./docs/useHelloRomanJoke.md) &mdash; fetch random [Hello Roman](https://www.youtube.com/channel/UCq8XmOMtrUCb8FcFHQEd8_g) joke.
+
+- [`useHover`](./docs/useHover.md) &mdash; detect mouse move on a specified element.
+
+- [`useIdle`](./docs/useIdle.md) &mdash; tracks if user on the page is idle.
+
+- [`useInterval`](./docs/useInterval.md) &mdash; provides setInterval in react hook.
+
+- [`useKeyPress`](./docs/useKeyPress.md) &mdash; detect when user is pressing a specific key.
+
+- [`useLocalStorage`](./docs/useLocalStorage.md) &mdash; manage your local storage in easy way.
+
+- [`useMousePosition`](./docs/useMousePosition.md) &mdash; tracks mouse position.
+
+- [`usePageWidth`](./docs/usePageWidth.md) &mdash; gives current page width.
+
+- [`useScrollPosition`](./docs/useScrollPosition.md) &mdash; tracks scroll position.
+
+- [`useToggle`](./docs/useToggle.md) &mdash; tracks toggle state.
+
+- [`useUnsplash`](./docs/useUnsplash.md) &mdash; gives random image from [Unsplash](https://unsplash.com/).
