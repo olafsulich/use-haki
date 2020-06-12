@@ -72,3 +72,5 @@
 - [`useToggle`](./docs/useToggle.md) &mdash; tracks toggle state.
 
 - [`useUnsplash`](./docs/useUnsplash.md) &mdash; gives random image from [Unsplash](https://unsplash.com/).
+
+- [`useDateTimeFormat`](./docs/useDateTimeFormat.md) &mdash; enable language-sensitive date formatting
