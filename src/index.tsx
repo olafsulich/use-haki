@@ -14,3 +14,4 @@ export { default as useLocalStorage } from './useLocalStorage';
 export { default as useToggle } from './useToggle';
 export { default as useKeyPress } from './useKeyPress';
 export { default as useDateTimeFormat } from './useDateTimeFormat';
+export { default as usePluralRules } from './usePluralRules';
