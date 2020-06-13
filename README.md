@@ -74,3 +74,7 @@
 - [`useUnsplash`](./docs/useUnsplash.md) &mdash; gives random image from [Unsplash](https://unsplash.com/).
 
 - [`useDateTimeFormat`](./docs/useDateTimeFormat.md) &mdash; enable language-sensitive date formatting
+
+- [`usePluralRules`](./docs/usePluralRules.md) &mdash; find ordinal for given number
+
+- [`useIntersection`](./docs/useIntersection.md) &mdash; use intersection observer listener in an easy way
