@@ -73,7 +73,8 @@
   "lint-staged": {
     "*.{ts,tsx}": [
       "prettier --config .prettierrc --write",
-      "eslint --fix"
+      "eslint --fix",
+      "npm run test"
     ]
   }
 }
