@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 
 const useScrollPosition = () => {
-  const [scrollPosition, setScrollPosition] = useState<number | null>(null);
+  const [scrollPosition, setScrollPosition] = useState<number>(window.scrollY);
 
   const handleScroll = useCallback(() => setScrollPosition(window.scrollY), [scrollPosition]);
 
