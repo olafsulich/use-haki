@@ -1,17 +1,18 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 const usePageWidth = () => {
   const [pageWidth, setPageWidth] = useState<number>(window.innerWidth);
 
-  const updateDimensions = () => {
+  const updateDimensions = useCallback(() => {
     setPageWidth(window.innerWidth);
-  };
+  }, [pageWidth]);
+
   useEffect(() => {
     window.addEventListener('resize', updateDimensions);
     return () => {
       window.removeEventListener('resize', updateDimensions);
     };
-  }, [pageWidth]);
+  }, [updateDimensions]);
 
   return pageWidth;
 };
