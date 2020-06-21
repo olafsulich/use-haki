@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { randomJokeApi } from './api/index';
 import { errorMessage } from './helpers/errorMessages';
 import { getRandomIndex } from './utils/randomIndex';
@@ -14,13 +14,13 @@ const useHelloRomanJoke = () => {
   const [randomAnswer, setRandomAnswer] = useState<string>();
   const [error, setError] = useState<string>();
 
-  const generateRandomJoke = (jokes: Joke[]) => {
+  const generateRandomJoke = useCallback((jokes: Joke[]) => {
     const { question, answer } = jokes[getRandomIndex(jokes)];
     setRandomQuestion(question);
     setRandomAnswer(answer);
-  };
+  }, []);
 
-  const fetchJokes = async () => {
+  const fetchJokes = useCallback(async () => {
     try {
       const data = await fetch(randomJokeApi);
       const { jokes } = await data.json();
@@ -28,7 +28,7 @@ const useHelloRomanJoke = () => {
     } catch {
       setError(errorMessage);
     }
-  };
+  }, []);
 
   useEffect(() => {
     fetchJokes();
