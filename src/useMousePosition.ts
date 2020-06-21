@@ -11,10 +11,10 @@ const useMousePosition = () => {
     posY: null,
   });
 
-  const handleMouseMove = useCallback((e: MouseEvent) => {
+  const handleMouseMove = useCallback(({ pageX, pageY }: MouseEvent) => {
     setMousePosition({
-      posX: e.pageX,
-      posY: e.pageY,
+      posX: pageX,
+      posY: pageY,
     });
   }, []);
 
