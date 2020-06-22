@@ -78,3 +78,5 @@
 - [`usePluralRules`](./docs/usePluralRules.md) &mdash; find ordinal for given number
 
 - [`useIntersection`](./docs/useIntersection.md) &mdash; use intersection observer listener in an easy way
+
+- [`useMeasure`](./docs/useMeasure.md) &mdash; gives sizes of an element and its position
