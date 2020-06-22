@@ -28,11 +28,11 @@ const useHelloRomanJoke = () => {
     } catch {
       setError(errorMessage);
     }
-  }, []);
+  }, [generateRandomJoke]);
 
   useEffect(() => {
     fetchJokes();
-  }, []);
+  }, [fetchJokes]);
 
   return [randomQuestion, randomAnswer, error];
 };

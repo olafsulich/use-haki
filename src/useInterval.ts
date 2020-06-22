@@ -8,7 +8,7 @@ const useInterval: Interval = (callback, delay) => {
   useEffect(() => {
     const id = setInterval(callback, delay);
     return () => clearInterval(id);
-  }, [delay]);
+  }, [delay, callback]);
 };
 
 export default useInterval;

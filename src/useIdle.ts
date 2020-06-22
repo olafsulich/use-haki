@@ -3,12 +3,14 @@ import createActivityDetector, { ActivityDetectorOptions } from 'activity-detect
 
 const useIdle = (options: ActivityDetectorOptions) => {
   const [isIdle, setIsIdle] = useState(false);
+
   useEffect(() => {
     const activityDetector = createActivityDetector(options);
     activityDetector.on('idle', () => setIsIdle(true));
     activityDetector.on('active', () => setIsIdle(false));
     return () => activityDetector.stop();
-  }, []);
+  }, [options]);
+
   return isIdle;
 };
 
