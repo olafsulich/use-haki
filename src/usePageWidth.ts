@@ -5,7 +5,7 @@ const usePageWidth = () => {
 
   const updateDimensions = useCallback(() => {
     setPageWidth(window.innerWidth);
-  }, [pageWidth]);
+  }, []);
 
   useEffect(() => {
     window.addEventListener('resize', updateDimensions);

@@ -1,4 +1,4 @@
-import { useEffect, RefObject } from 'react';
+import { useEffect, RefObject, useCallback } from 'react';
 
 enum Events {
   MOUSEDOWN = 'mousedown',
@@ -12,14 +12,17 @@ type Ref = RefObject<HTMLElement>;
 type Handler = (event: Event) => void;
 
 const useClickOutside = (ref: Ref, handler: Handler) => {
-  useEffect(() => {
-    const listener = (event: Event) => {
+  const listener = useCallback(
+    (event: Event) => {
       if (!ref.current || ref.current.contains(event.target as Node)) {
         return;
       }
       handler(event);
-    };
+    },
+    [ref, handler],
+  );
 
+  useEffect(() => {
     document.addEventListener('mousedown', listener);
     document.addEventListener('touchstart', listener);
 
@@ -27,7 +30,7 @@ const useClickOutside = (ref: Ref, handler: Handler) => {
       document.removeEventListener('mousedown', listener);
       document.removeEventListener('touchstart', listener);
     };
-  }, [ref, handler]);
+  }, [listener]);
 };
 
 export default useClickOutside;

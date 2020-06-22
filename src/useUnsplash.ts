@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { errorMessage } from './helpers/errorMessages';
 
 type Unsplash = {
@@ -12,7 +12,7 @@ const useUnsplash = ({ user, random = true, width, height }: Unsplash) => {
   const [randomImage, setRandomImage] = useState<string>();
   const [error, setError] = useState<string>();
 
-  const fetchImage = async () => {
+  const fetchImage = useCallback(async () => {
     try {
       const apiLink = `https://source.unsplash.com/${user ? `user/${user}` : random ? 'random' : null}/${
         width || height ? `${width}x${height}` : null
@@ -21,11 +21,11 @@ const useUnsplash = ({ user, random = true, width, height }: Unsplash) => {
     } catch {
       setError(errorMessage);
     }
-  };
+  }, [user, random, width, height]);
 
   useEffect(() => {
     fetchImage();
-  }, []);
+  }, [fetchImage]);
 
   return [randomImage, error];
 };

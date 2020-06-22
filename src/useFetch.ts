@@ -67,7 +67,7 @@ const useFetch = (path: string) => {
   useEffect(() => {
     dispatch({ type: Type.Started });
     getData();
-  }, []);
+  }, [getData]);
 
   const { status } = state;
   return {

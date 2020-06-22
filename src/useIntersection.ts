@@ -7,11 +7,12 @@ const useIntersection = (ref: MutableRefObject<HTMLElement>, options: Intersecti
       setIntersecting(isIntersecting);
     }, options);
 
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
+    const currentRf = ref.current;
+
+    observer.observe(currentRf);
+
     return () => {
-      observer.unobserve(ref.current);
+      observer.unobserve(currentRf);
     };
   }, [ref, options]);
 
