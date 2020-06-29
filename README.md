@@ -22,14 +22,14 @@
 <hr />
 
 <!-- prettier-ignore-start -->
-[![Build Status](https://travis-ci.org/olafsulich/use-haki.svg?style=flat-square)](https://travis-ci.org/olafsulich/use-haki)
+[![Build Status](https://travis-ci.org/olafsulich/use-haki?style=flat-square)](https://travis-ci.org/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
 [![downloads](https://img.shields.io/npm/dm/use-haki?style=flat-square)](https://www.npmtrends.com/use-haki)
 [![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg?style=flat-square)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/testing-library/react-hooks-testing-library/blob/master/CODE_OF_CONDUCT.md)
+
 [![Star on GitHub](https://img.shields.io/github/stars/olafsulich/use-haki.svg?style=social)](https://github.com/olafsulich/use-haki/stargazers)
 <!-- prettier-ignore-end -->
 
