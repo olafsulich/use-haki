@@ -1,6 +1,6 @@
 ---
 name: 🐛 Bug Report
-about: Bugs, missing documentation, or unexpected behavior 🤔.
+about: Bugs, missing documentation, or unexpected behavior.
 ---
 
 **What is the current behavior?**
