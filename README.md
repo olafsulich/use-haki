@@ -120,7 +120,7 @@ Contributions of any kind welcome!
 ## Issues
 
 _Looking to contribute? Look for the
-[Good First Issue](https://github.com/testing-library/react-hooks-testing-library/issues?utf8=✓&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3A"good+first+issue"+)
+[Good First Issue](https://github.com/olafsulich/use-haki/issues?utf8=✓&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3A"good+first+issue"+)
 label._
 
 ### 🐛 Bugs
