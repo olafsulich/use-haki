@@ -1,6 +1,6 @@
 {
   "name": "use-haki",
-  "version": "0.0.0-development",
+  "version": "1.0.4",
   "description": "Made with create-react-library",
   "author": "olafsulich",
   "license": "Unlicensed",
@@ -59,7 +59,6 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
     "react-test-renderer": "^16.13.1",
-    "semantic-release": "^17.1.1",
     "typescript": "^3.7.5"
   },
   "files": [
