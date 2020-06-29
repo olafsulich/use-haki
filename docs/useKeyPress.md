@@ -24,7 +24,7 @@ const App = () => {
 const keyPressed = useKeyPress('targetKey');
 ```
 
-- **targetKey** -
+- **targetKey** - name of specific key, like: 'f', 'q', 'Enter'
 
 ### Returns
 
