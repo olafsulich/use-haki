@@ -1,9 +1,6 @@
 ---
-name: Feature request
+name: 💡 Feature Request
 about: Have an idea for next hook? You want to improve one of existing? Great! Let's talk about it!
-title: ''
-labels: ''
-assignees: ''
 ---
 
 **Is your feature request related to a problem? Please describe.**

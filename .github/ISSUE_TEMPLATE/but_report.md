@@ -1,9 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help improve this package
-title: ''
-labels: ''
-assignees: ''
+name: 🐛 Bug Report
+about: Bugs, missing documentation, or unexpected behavior 🤔.
 ---
 
 **What is the current behavior?**
