@@ -1,0 +1,30 @@
+{
+  "files": ["README.md"],
+  "imageSize": 100,
+  "contributorsPerLine": 7,
+  "contributorsSortAlphabetically": false,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
+  "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
+  "types": {
+    "custom": {
+      "symbol": "🔭",
+      "description": "A custom contribution type.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
+  },
+  "skipCi": "false",
+  "contributors": [
+      {
+      "login": "olafsulich",
+      "name": "olafsulich",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46969484?s=460&u=6efb367aa9e2618cde36837f5b48fe2a09a69045&v=4",
+      "profile": "https://github.com/olafsulich",
+      "contributions": [
+        "code",
+        "maintenance",
+        "test",
+        "ideas"
+      ]
+    },
+  ]
+}

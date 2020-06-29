@@ -81,6 +81,8 @@
 
 - [`useMeasure`](./docs/useMeasure.md) &mdash; gives sizes of an element and its position
 
+  <br />
+
 ## Technologies
 
 - React
@@ -91,4 +93,52 @@
 - Husky & Lint-staged
 - React Testing Library & React Hooks Testing Library
 
-## Contributing
+  <br />
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/olafsulich"><img src="https://avatars2.githubusercontent.com/u/46969484?s=460&u=6efb367aa9e2618cde36837f5b48fe2a09a69045&v=4" width="100px;" alt=""/><br /><sub><b>Olaf Sulich</b></sub></a><br /><a href=""title="Code">💻</a> <a href="" title="Documentation">📖</a> <a href="" title="Ideas, Planning, & Feedback">🤔</a> <a href="" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://allcontributors.org/) specification.
+Contributions of any kind welcome!
+
+## Issues
+
+_Looking to contribute? Look for the
+[Good First Issue](https://github.com/testing-library/react-hooks-testing-library/issues?utf8=✓&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3A"good+first+issue"+)
+label._
+
+### 🐛 Bugs
+
+Please file an issue for bugs, missing documentation, or unexpected behavior.
+
+[**See Bugs**](https://github.com/olafsulich/use-haki/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Acreated-desc)
+
+### 💡 Feature Requests
+
+Please file an issue to suggest new features/hooks. Vote on feature requests by adding a 👍. This helps
+me prioritize what to work on.
+
+[**See Feature Requests**](https://github.com/olafsulich/use-haki/issues?q=is%3Aissue+sort%3Areactions-%2B1-desc+label%3Aenhancement+is%3Aopen)
+
+### ❓ Questions
+
+For questions related to using the library, you can
+[raise issue here](https://github.com/olafsulich/use-haki/issues/new), or
+send me an email: **olafsulich@gmail.com**
+
+  <br />
