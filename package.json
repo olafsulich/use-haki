@@ -1,6 +1,6 @@
 {
-  "name": "use-haki",
-  "version": "1.0.4",
+  "name": "@olafsulich/use-haki",
+  "version": "1.0.5",
   "description": "Made with create-react-library",
   "author": "olafsulich",
   "license": "Unlicensed",
@@ -10,6 +10,9 @@
   "source": "src/index.tsx",
   "engines": {
     "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/olafsulich"
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
