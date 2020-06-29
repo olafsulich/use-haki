@@ -1,6 +1,6 @@
 # `useEventListener`
 
-This hook allows you to detect clicks outside of a specified element.
+Provide a declarative way for events listeners.
 
 ## Usage
 
@@ -8,25 +8,16 @@ This hook allows you to detect clicks outside of a specified element.
 import { useEventListener } from 'use-haki';
 
 const App = () => {
-  const modalRef = useRef(null);
-  const [isModalOpen, setModalOpen] = useState(false);
-  useClickOutside(modalRef, () => setModalOpen(false));
-  return (
-    <>
-      {isModalOpen ? (
-        <div className="modal" ref={modalRef}>
-          Hey there 👋
-        </div>
-      ) : (
-        <button onClick={() => setModalOpen(true)}>Open me!</button>
-      )}
-    </>
-  );
+  useEventListener(document, 'click', (event) => console.log(event));
 };
 ```
 
 ## Reference
 
 ```ts
-useClickOutSide(ref: RefObject<HTMLElement>, handler: (event: Event) => void);
+useEventListener(element, eventName, handler);
 ```
+
+- **element** - reference to element
+- **eventName** - name of event, eg. 'click'
+- **handler** - event listener callback

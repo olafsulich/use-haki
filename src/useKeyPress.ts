@@ -29,6 +29,7 @@ const useKeyPress = (targetKey: string) => {
       window.removeEventListener('keyup', handleKeyUp);
     };
   }, [handleKeyDown, handleKeyUp]);
+
   return keyPressed;
 };
 
