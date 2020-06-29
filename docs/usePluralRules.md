@@ -28,7 +28,7 @@ const App = () => {
 const pr = usePluralRules(num: number);
 ```
 
-For example, you pass in number `2`, then you get `2nd`, same situation with number `3`, you pass it in and get`3rd`.
+For example, you pass in number `2`, then you get `2nd`, same situation with number `3`, you pass it in and get `3rd`.
 
 Ordinals:
 
