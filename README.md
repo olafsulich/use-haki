@@ -92,6 +92,7 @@
 - Eslint & Prettier
 - Husky & Lint-staged
 - React Testing Library & React Hooks Testing Library
+- Github Actions
 
   <br />
 
@@ -110,6 +111,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://allcontributors.org/) specification.
