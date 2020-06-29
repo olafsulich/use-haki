@@ -102,11 +102,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/olafsulich"><img src="https://avatars2.githubusercontent.com/u/46969484?s=460&u=6efb367aa9e2618cde36837f5b48fe2a09a69045&v=4" width="100px;" alt=""/><br /><sub><b>Olaf Sulich</b></sub></a><br /><a href=""title="Code">💻</a> <a href="" title="Documentation">📖</a> <a href="" title="Ideas, Planning, & Feedback">🤔</a> <a href="" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="" title="Tests">⚠️</a></td>
-  </tr>
-</table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
