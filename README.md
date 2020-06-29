@@ -22,26 +22,26 @@
 <hr />
 
 <!-- prettier-ignore-start -->
-[![Build Status](https://travis-ci.org/olafsulich/use-haki.svg)](https://travis-ci.org/olafsulich/use-haki)
-[![npm](https://img.shields.io/npm/v/use-haki)](https://www.npmjs.com/package/use-haki)
-[![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/olafsulich/use-haki.svg?style=flat-square)](https://travis-ci.org/olafsulich/use-haki)
+[![npm](https://img.shields.io/npm/v/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
+[![downloads](https://img.shields.io/npm/dm/use-haki?style=flat-square)](https://www.npmtrends.com/use-haki)
+[![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg?style=flat-square)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/olafsulich/use-haki.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/olafsulich/use-haki.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/network/)
-[![GitHub watchers](https://img.shields.io/github/watchers/olafsulich/use-haki.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/olafsulich/use-haki/watchers/)
-[![GitHub followers](https://img.shields.io/github/followers/olafsulich.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/olafsulich?tab=followers)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/testing-library/react-hooks-testing-library/blob/master/CODE_OF_CONDUCT.md)
+[![Star on GitHub](https://img.shields.io/github/stars/olafsulich/use-haki.svg?style=social)](https://github.com/olafsulich/use-haki/stargazers)
 <!-- prettier-ignore-end -->
 
 <div align="center">
   <br />
   <br />
-  <br />
   <pre>npm i <a href="https://www.npmjs.com/package/use-haki">use-haki</a></pre>
   <br />
   <br />
-  <br />
-  <br />
 </div>
+
+## Hooks
 
 - [`useClickOutside`](./docs/useClickOutside.md) &mdash; allows you to detect clicks outside of a specified element.
 
@@ -80,3 +80,15 @@
 - [`useIntersection`](./docs/useIntersection.md) &mdash; use intersection observer listener in an easy way
 
 - [`useMeasure`](./docs/useMeasure.md) &mdash; gives sizes of an element and its position
+
+## Technologies
+
+- React
+- TypeScript
+- Microbundle
+- TravisCI
+- Eslint & Prettier
+- Husky & Lint-staged
+- React Testing Library & React Hooks Testing Library
+
+## Contributing
