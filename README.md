@@ -22,7 +22,7 @@
 <hr />
 
 <!-- prettier-ignore-start -->
-[![Build Status](https://travis-ci.org/olafsulich/use-haki?style=flat-square)](https://travis-ci.org/olafsulich/use-haki)
+[![Build Status](https://travis-ci.org/olafsulich/use-haki.svg?style=flat-square)](https://travis-ci.org/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
 [![downloads](https://img.shields.io/npm/dm/use-haki?style=flat-square)](https://www.npmtrends.com/use-haki)
 [![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg?style=flat-square)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
