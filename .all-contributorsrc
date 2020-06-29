@@ -14,6 +14,23 @@
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     }
   },
-  "skipCi": "true",
-  "contributors": []
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "olafsulich",
+      "name": "Olaf Sulich",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46969484?v=4",
+      "profile": "http://frontlive.pl",
+      "contributions": [
+        "code",
+        "maintenance",
+        "test",
+        "ideas"
+      ]
+    }
+  ],
+  "projectName": "use-haki",
+  "projectOwner": "olafsulich",
+  "repoType": "github",
+  "repoHost": "https://github.com"
 }
