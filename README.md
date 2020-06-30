@@ -22,7 +22,7 @@
 <hr />
 
 <!-- prettier-ignore-start -->
-![Build Status](https://github.com/olafsulich/use-haki/workflows/Node.js%20CI/badge.svg)
+[![Build Status](https://img.shields.io/circleci/build/github/olafsulich/use-haki/master?style=flat-square)](https://app.circleci.com/pipelines/github/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
 [![downloads](https://img.shields.io/npm/dm/use-haki?style=flat-square)](https://www.npmtrends.com/use-haki)
 [![GitHub license](https://img.shields.io/github/license/olafsulich/use-haki.svg?style=flat-square)](https://github.com/olafsulich/usehaki/blob/master/LICENSE)
