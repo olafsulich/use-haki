@@ -79,7 +79,7 @@
     "*.{ts,tsx}": [
       "prettier --config .prettierrc --write",
       "eslint --fix",
-      "npm run test:unit"
+      "npm run test"
     ]
   }
 }
