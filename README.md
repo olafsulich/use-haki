@@ -20,7 +20,6 @@
 </div>
 
 <hr />
-
 <!-- prettier-ignore-start -->
 [![Build Status](https://img.shields.io/circleci/build/github/olafsulich/use-haki/master?style=flat-square)](https://app.circleci.com/pipelines/github/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
@@ -31,6 +30,7 @@
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/testing-library/react-hooks-testing-library/blob/master/CODE_OF_CONDUCT.md)
 
 [![Star on GitHub](https://img.shields.io/github/stars/olafsulich/use-haki.svg?style=social)](https://github.com/olafsulich/use-haki/stargazers)
+
 <!-- prettier-ignore-end -->
 
 <div align="center">
