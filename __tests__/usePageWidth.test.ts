@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import usePageWidth from '../usePageWidth';
+import usePageWidth from '../src/usePageWidth';
 
 describe('test usePageWidth hook', () => {
   const getHook = () => renderHook(() => usePageWidth());
