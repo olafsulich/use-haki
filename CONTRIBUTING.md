@@ -101,10 +101,10 @@ send me an email: **olafsulich@gmail.com**
   - :arrow_up: `:arrow_up:` when **upgrading** dependencies.
   - :arrow_down: `:arrow_down:` when **downgrading** dependencies.
   - :shirt: `:shirt:` when removing **linter** warnings.
-  - :recycle: `:recycle:` when refactoring code.
-  - :package: `:package:` when adding or updating compiled files or packages.
-  - :alien: `:alien:` when updating code due to external API changes.
-  - :egg: `:egg:` when adding or updating an easter egg.
+  - :recycle: `:recycle:` when **refactoring** code.
+  - :package: `:package:` when adding or updating compiled files or **packages**.
+  - :alien: `:alien:` when updating code due to external **API** changes.
+  - :egg: `:egg:` when adding or updating an **easter egg**.
 
   For more emojis check [gitmoji](https://gitmoji.carloscuesta.me/)!
 
