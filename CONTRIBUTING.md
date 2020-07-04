@@ -106,7 +106,7 @@ send me an email: **olafsulich@gmail.com**
   - :alien: `:alien:` when updating code due to external API changes.
   - :egg: `:egg:` when adding or updating an easter egg.
 
-  For more emoji check [gitmoji](https://gitmoji.carloscuesta.me/)!
+  For more emojis check [gitmoji](https://gitmoji.carloscuesta.me/)!
 
 ### :dog: Git hooks
 
