@@ -20,6 +20,7 @@
 </div>
 
 <hr />
+
 <!-- prettier-ignore-start -->
 [![Build Status](https://img.shields.io/circleci/build/github/olafsulich/use-haki/master?style=flat-square)](https://app.circleci.com/pipelines/github/olafsulich/use-haki)
 [![npm](https://img.shields.io/npm/v/use-haki?style=flat-square)](https://www.npmjs.com/package/use-haki)
