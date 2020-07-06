@@ -1,4 +1,4 @@
-# `useEventListener`
+# `useTheme`
 
 This hook helps you implement light/dark mode in your app, based on prefers-color-scheme and localStorage.
 
@@ -7,7 +7,7 @@ This hook helps you implement light/dark mode in your app, based on prefers-colo
 Component:
 
 ```jsx
-import { useEventListener } from 'use-haki';
+import { useTheme } from 'use-haki';
 
 const App = () => {
   const [theme, setTheme] = useTheme();
