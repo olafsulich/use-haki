@@ -82,6 +82,8 @@
 
 - [`useMeasure`](./docs/useMeasure.md) &mdash; gives sizes of an element and its position
 
+- [`useTheme`](./docs/useTheme.md) &mdash; dynamically change the appearance of your app using CSS variables with light/dark mode.
+
   <br />
 
 ## Technologies
