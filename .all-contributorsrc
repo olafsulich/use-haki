@@ -26,6 +26,15 @@
         "test",
         "ideas"
       ]
+    },
+    {
+      "login": "wloszynski",
+      "name": "Adrian Wloszynski",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42609894?v=4",
+      "profile": "https://www.linkedin.com/in/wloszynski/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "projectName": "use-haki",

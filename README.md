@@ -108,11 +108,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://frontlive.pl"><img src="https://avatars1.githubusercontent.com/u/46969484?v=4" width="100px;" alt=""/><br /><sub><b>Olaf Sulich</b></sub></a></td>
+    <td align="center"><a href="http://frontlive.pl"><img src="https://avatars1.githubusercontent.com/u/46969484?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Olaf Sulich</b></sub></a><br /><a href="https://github.com/olafsulich/use-haki/commits?author=olafsulich" title="Code">💻</a> <a href="#maintenance-olafsulich" title="Maintenance">🚧</a> <a href="https://github.com/olafsulich/use-haki/commits?author=olafsulich" title="Tests">⚠️</a> <a href="#ideas-olafsulich" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/wloszynski/"><img src="https://avatars1.githubusercontent.com/u/42609894?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adrian Wloszynski</b></sub></a><br /><a href="https://github.com/olafsulich/use-haki/commits?author=wloszynski" title="Code">💻</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
